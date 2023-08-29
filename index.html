@@ -4,31 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Easy Car</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a class="logo" href="/">Easy car</a>
+        <a class="logo" href="/">Easy Car</a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Catálogo de carros</a></li>
-          <li><a href="#">Cadastro</a></li>
+          <li><a href="#">Página Inicial</a></li>
+          <li><a href="#">Agende seu serviço</a></li>
+          <li><a href="#">Anúncios</a></li>
+          <li><a href="#">Contate-nos</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <script src="mobile-navbar.js"></script>
+    <!-- <main> -->
+      <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            
+            <div class="slide s1">
+                <img src="img/Fiat/Argo.png" alt="Argo">
+            </div>
+            <div class="slide">
+                <img src="img/Fiat/Cronos.png" alt="Cronos">
+            </div>
+            <div class="slide">
+                <img src="img/Fiat/Fiorino.png" alt="Fiorino">
+            </div>
+            <div class="slide">
+                <img src="img/Fiat/Mobi.png" alt="Mobi">
+            </div>
+            <div class="slide">
+                <img src="img/Fiat/Toro.png" alt="Toro">
+            </div>
+            
+            <div class="navegacao">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>               
+            </div>
+        </div>
+        </div>
+      </div>
+
+    <!-- </main> -->
+    <script src="js/mobile-navbar.js"></script>
+    <footer>
+      <p>&copy; 2023 Easy Car. Todos os direitos reservados.</p>
+    </footer>
   </body>
-  <footer>
-    <p>&copy; 2023 Easy car. Todos os direitos reservados.</p>
-  </footer>
+  
+  
 </html>
