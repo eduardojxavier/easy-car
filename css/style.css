@@ -29,6 +29,9 @@
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
     height: 8vh;
+    position: relative;
+    z-index: 999; /*sobrepõe o menu */
+    
   }
   
 
@@ -54,6 +57,7 @@
     background: #fff;
     margin: 8px;
     transition: 0.3s;
+    
   }
   
   @media (max-width: 999px) {
@@ -79,6 +83,8 @@
     }
     .mobile-menu {
       display: block;
+      
+      /* position: absolute; */
     }
   }
   
@@ -97,6 +103,7 @@
     }
   }
   
+
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
