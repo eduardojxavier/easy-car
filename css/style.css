@@ -220,8 +220,10 @@ form {
     border-radius: 10px;
     text-align: left; 
     background-color: #ffffff; 
-    
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     z-index: 1; /* Define a ordem de empilhamento para o formulário */
+    font-size: 16px;
+    letter-spacing: 3px;
 }
 
 label {
