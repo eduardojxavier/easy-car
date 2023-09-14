@@ -307,7 +307,6 @@ main{
   margin: 20px;
   transform-style: preserve-3d;
   transition: 1.0s;
-  
 }
 
 .frente,
@@ -320,14 +319,33 @@ main{
   backface-visibility: hidden;
 }
 
+/* .container p{
+  padding-top: 50px;
+  align-items: center;
+  justify-content: left;
+} */
+
+.conteudo-veiculo{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  padding-left: 50px;
+  padding-top: 20px;
+
+}
+
 .container img{
   height: 200px;
   margin-top: 20px;
 }
 
 .costas{
-  background-color: black;
+  background-color: white;
   transform: rotateY(180deg);
+  align-items: left;
   
 }
 
