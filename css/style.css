@@ -385,3 +385,86 @@ img{
   
 
 }
+
+.container-sobre{
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  margin: 50px;
+  height: 300px;
+ }
+
+h2{
+  text-align: initial;
+}
+
+.container-sobre p{
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 30px;  
+  margin-top: 10px;
+  margin-right: 300px;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-bottom: 20%;
+}
+h1{
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+h4{
+  text-align: justify;
+  margin-right: 30px;
+  color: black;
+}
+h2{
+  text-align: center;
+  margin-right: 30px;
+  color: black;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+.container-sobre img{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  float: left;
+  display:flex;
+  border-radius: 50%;
+  box-shadow: 0 0 15px black;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-bottom: 20%;
+}
+
+
+
+/* .Nossos_valores {
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around; 
+  justify-items: center; 
+  font-size: 12px;
+  margin: 50px;
+  align-items: flex-end;
+}
+.valores img {
+    width: 120px;
+    height: 120px;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    margin-left: 30%;
+
+
+}
+.valores p{
+    text-indent: 20px;
+    line-height: 30px;  
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+} */
