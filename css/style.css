@@ -287,43 +287,59 @@ main{
 
 }
 
-.container{
-  position: relative;
+.container {
+  display: inline-block;
   width: 350px;
   height: 250px;
-  margin: 5px;
-  perspective: 1000px;
+  margin: 40px 0;
+  perspective: 600px;
+  position:relative;
   
 }
 
-.container:hover .flip{
-  transform: rotateY(180deg);
-}
-
-.flip{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 20px;
+.card {
+  position: relative;
+  width: 95%;
+  height: 95%;
   transform-style: preserve-3d;
-  transition: 1.0s;
+  transform-origin: center right;
+  transition: transform 1s;
+
 }
 
-.frente,
-.costas {
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+  
+}
+
+.card-face {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 20px;
-  border: solid 1px;
+  text-align: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-size: 18px; 
   backface-visibility: hidden;
+  border: 1px solid black;
+  border-radius: 10px;
+  
 }
 
-/* .container p{
-  padding-top: 50px;
-  align-items: center;
-  justify-content: left;
-} */
+img{
+  height: 100%;
+  width: 100%;
+ 
+}
+.card-face-front {
+  
+}
+
+.card-face-back {
+  
+  transform: rotateY(180deg);
+  
+}
+
 
 .conteudo-veiculo{
   text-align: left;
@@ -334,19 +350,13 @@ main{
   height: 200px;
   padding-left: 50px;
   padding-top: 20px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 
 }
 
 .container img{
   height: 200px;
   margin-top: 20px;
-}
-
-.costas{
-  background-color: white;
-  transform: rotateY(180deg);
-  align-items: left;
-  
 }
 
 .marcas{
