@@ -5,69 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Easy Car</title>
-    <link rel="shortcut icon" href="/img/favicon.ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="LOGO 1.png" type="image/x-icon" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a class="logo" href="/">Easy Car</a>
+        <a class="logo" href="/">
+          <img src="img/LOGO 1.png" alt="Logo da Easy Car" />
+          Easy car
+        </a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="index.html">Página Inicial</a></li>
-          <li><a href="marcas.html">Anúncios</a></li>
-          <li><a href="contato.html">Contate-nos</a></li>
+          <li><a href="index.html">Início</a></li>
           <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="marcas.html">Catálogo de carros</a></li>
+          <li><a href="contato.html">Cadastro</a></li>
         </ul>
       </nav>
     </header>
-    <!-- <main> -->
-      <div class="content">
-        <div class="slides">
-            <input type="radio" name="slide" id="slide1" checked>
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-            <input type="radio" name="slide" id="slide4">
-            <input type="radio" name="slide" id="slide5">
-            
-            <div class="slide s1">
-                <img src="img/Fiat/Argo.png" alt="Argo">
-            </div>
-            <div class="slide">
-                <img src="img/Fiat/Cronos.png" alt="Cronos">
-            </div>
-            <div class="slide">
-                <img src="img/Fiat/Mobi.png" alt="Mobi">
-            </div>
-            <div class="slide">
-                <img src="img/Fiat/Toro.png" alt="Toro">
-            </div>
-            <div class="slide">
-              <img src="img/Fiat/Fiorino.png" alt="Fiorino">
-            </div>
-            
-            <div class="navegacao">
-                <label class="bar" for="slide1"></label>
-                <label class="bar" for="slide2"></label>
-                <label class="bar" for="slide3"></label>
-                <label class="bar" for="slide4"></label>
-                <label class="bar" for="slide5"></label>               
-            </div>
+    <main class="img-full">
+      <h1 class="main-title"><a href="marcas.html">Compre seu carro aqui</a></h1>
+      <p></p>
+      <a href="https://api.whatsapp.com/send?phone=NUMERO" target="_blank">
+        <div id="whatasapp">
+          <img
+            src="img/whatsapp2.png"
+            alt="Fale Whatsapp"
+          />
         </div>
+        <div id="instagram">
+          <img
+            src="img/instagram2.png"
+            alt="Nosso instagram"
+          />
         </div>
-      </div>
-
-    <!-- </main> -->
-    <script src="js/mobile-navbar.js"></script>
-    <footer>
-      <p>&copy; 2023 Easy Car. Todos os direitos reservados.</p>
-    </footer>
+        >
+      </a>
+    </main>
+    <script src="mobile-navbar.js"></script>
   </body>
-  
-  
+  <footer>
+    <p>&copy; 2023 Easy car. Todos os direitos reservados.</p>
+  </footer>
 </html>
